@@ -13,17 +13,19 @@
 <p> Steps to follow : </p>
 
 > composer create-project laravel/laravel:^10.0 project-name
-
+>
 > cd project-name
-
+>
 > npm install
-
+>
 > composer require livewire/livewire
-
+>
+> >After setting database name and table
 > php artisan migrate
-
+>
 > php artisan serve
-
-- Create Livewire
-	> php artisan make:livewire livewire-name
+>
+> >Create Livewire
+> 
+> php artisan make:livewire livewire-name
  
